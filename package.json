@@ -1,0 +1,19 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Curso de ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giojodev/ECMAScript.git"
+  },
+  "author": "Giovanni Orozco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giojodev/ECMAScript/issues"
+  },
+  "homepage": "https://github.com/giojodev/ECMAScript#readme"
+}

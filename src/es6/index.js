@@ -60,3 +60,62 @@ console.log(education)
 }
 
 console.log(global);
+
+class   calculator{
+    constructor(){
+        this.valueA = 0;
+        this.valueB = 0
+    }
+
+    sumar(ValueA,ValueB){
+        this.valueA=ValueA;
+        this.valueB=ValueB;
+
+        return this.valueA+this.valueB;
+
+    }
+    restar(ValueA,ValueB){
+        this.valueA=ValueA;
+        this.valueB=ValueB;
+
+        return this.valueA-this.valueB;
+
+    }
+    multiplicar(ValueA,ValueB){
+        this.valueA=ValueA;
+        this.valueB=ValueB;
+
+        return this.valueA*this.valueB;
+
+    }
+    dividir(ValueA,ValueB){
+        this.valueA=ValueA;
+        this.valueB=ValueB;
+
+        return this.valueA/this.valueB;
+
+    }
+}
+
+const calc=new calculator();
+console.log(calc.sumar(10,20));
+
+//ES6 Import - Export
+
+import {hello} from "./module";
+
+hello();
+
+function* helloworld(){
+    if(true){
+        yield 'Hello, ';
+    }
+    if(true){
+        yield 'World';
+    }
+};
+
+const generatorHello=helloworld();
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
+console.log(generatorHello.next().value);
